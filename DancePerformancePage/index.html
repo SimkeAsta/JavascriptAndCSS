@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Exam">
+    <meta name="keywords" content="HTML,CSS,Bootstrap,JavaScript">
+    <meta name="author" content="Asta Šimkė">
+
+    <title>Dancers</title>
+
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/ac92fee1e7.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+
+<body>
+
+    <header class="container" style="padding-bottom: 10px">
+        <div class="row" style="padding-top: 10px">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <h1 class="display-4" style="padding-bottom: 5px">Move</h1>
+                <p>Asta Šimkė JP191</p>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <form>
+                    <div class="form-group" style="padding-top: 30px">
+                        <label for="search">Dance performer</label>
+                        <input type="text" class="form-control" id="search" placeholder="Search by dance performer name">
+                        <button class="btn" id="btn" style="margin-top: 5px">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <hr>
+            </div>
+        </div>
+
+        <nav class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Staff</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="container">
+        <section class="row" style="padding-bottom: 40px">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="IMG/slide-3.jpg" class="d-block w-100" alt="dancer">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="IMG/slide-2.jpg" class="d-block w-100" alt="dancer2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="row" style="padding-bottom: 40px">
+            <div class="col-lg-4">
+                <img src="IMG/page1_img1.jpg" alt="dancer3">
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-8" style="padding-left: 30px">
+                <h1 class="text">The way you move | Registration</h1>
+                <form id="myForm">
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label for="firstname">First name</label>
+                            <input type="text" class="form-control" id="firstname" placeholder="First name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Last name</label>
+                        <input type="text" class="form-control" id="lastname" placeholder="Last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age group</label>
+                        <select id="age" class="form-control">
+                            <option selected>--Select--</option>
+                            <option value="13-18">13-18</option>
+                            <option value="19-24">19-24</option>
+                            <option value="25-30">25-30</option>
+                            <option value="31-40">31-40</option>
+                            <option value="41 and more">41 and more</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="performance">The name of the dance performance</label>
+                        <input type="text" class="form-control" id="performance" placeholder="The name of the dance performance">
+                    </div>
+                    <div class="form-group">
+                        <label for="url">The URL to Music on YOUTUBE</label>
+                        <input type="url" class="form-control" id="url" placeholder="URL">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row" style="padding-bottom: 40px">
+            <div class="col-12">
+                <hr>
+            </div>
+        </div>
+
+        <section class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6" style="padding-bottom: 40px">
+                <h1 class="display-3">Recent Publications</h1>
+                <article class="row" style="padding-top: 20px">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <h1 class="text">How to Join</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate expedita adipisci non, rerum unde sequi commodi.</p>
+                        <a href="#">More</a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <h1 class="text">Our Styles</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate expedita adipisci non, rerum unde sequi commodi.</p>
+                        <a href="#">More</a>
+                    </div>
+                </article>
+                <article class="row" style="padding-top: 20px">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <h1 class="text">Shedule</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate expedita adipisci non, rerum unde sequi commodi.</p>
+                        <a href="#">More</a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <h1 class="text">Flexibility and Strength</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate expedita adipisci non, rerum unde sequi commodi.</p>
+                        <a href="#">More</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col">
+                <img src="IMG/page1_img2.jpg" style="padding-left: 40px" alt="dancer4">
+            </div>
+        </section>
+        <div class="row">
+            <div class="col-12">
+                <hr>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container">
+        <div class="row">
+            <div class="col-12" style="display: inline">
+                <i class="fab fa-facebook-square"></i>
+                <p class="d-inline-block">&nbsp;&nbsp;@danceshool.org</p>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 40px">
+            <div class="col-12" style="text-align: center">
+                <p class="bigger">Asta Šimkė JP191<p>
+                        <p>2019 - 2020 m.m.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JS/main.js"></script>
+
+</body>
+
+</html>

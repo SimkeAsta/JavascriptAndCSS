@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.display-4 {
+    font-family: Tahoma;
+    letter-spacing: 1em;
+    color: #b878b5;
+}
+
+.nav-link {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    color: #b878b5;
+    text-align: justify-all;
+}
+
+.btn {
+    color: #b878b5;
+}
+
+.text {
+    font-family: Tahoma;
+    color: #b878b5;
+}
+
+.btn {
+    background-color: #b878b5;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a {
+    color: #b878b5;
+}
+
+.fab {
+    font-size: 2em;
+    color: #b878b5;
+}
+
+.bigger {
+    font-size: 1.25em;
+}
+
+hr {
+    color: black;
+}
+
+.display-3 {
+    color:  #b878b5;
+}
