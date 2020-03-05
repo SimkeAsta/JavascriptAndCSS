@@ -1,0 +1,62 @@
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+nav i {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.d-inline-block {
+    vertical-align: top;
+}
+
+.nav-link {
+    color: black;
+}
+
+.jumbotron {
+    background-color: #C3C3E5;
+}
+
+.display-4 {
+    font-family: "Lucida Grande";
+    font-weight: 600;
+    color: #443266;
+}
+
+.btn {
+    background-color: #443266;
+    margin-bottom: 15px;
+}
+
+.progress-bar1 {
+    background-color: #8C489F
+}
+
+.progress-bar {
+    background-color: #C3C3E5;
+}
+
+.background-style {
+    background-color: #C3C3E5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+}
+
+article i {
+    font-size: 35px;
+    color: #443266;
+}
+
+article button {
+    font-family: serif;
+}
+
+.btn2 {
+    background-color: none;
+    border-radius: 5px;
+    padding: 5px 14px;
+}
